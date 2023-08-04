@@ -149,6 +149,7 @@ margin-bottom: 20px;
     .nav-section{
         height: auto;
         width: 100%;
+        padding: 0;
        
     }
      .left p{
