@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cedarville+Cursive&family=Open+Sans&family=Playfair+Display&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+}    
+
+.nav-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px; */
+    padding-inline: 100px;
+}
+
+#a{
+   color: black;
+   background: transparent;
+   border: 1px solid black;
+   border-radius: 15px;
+
+}
+
+.left{
+    height: auto;
+    font-size: 25px;
+  
+    
+}
+
+.right{
+  
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right button{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 12px;
+}
+
+.hero-section{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.hero-section h3{
+    font-size: 25px;
+}
+
+.hero-section input ::placeholder{
+    padding: 20px;
+    
+}
+
+.hero-section button{
+    font-size: 18px;
+    margin-top: 12px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 12px;
+}
+
+.feature{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+  
+
+}
+.feature p{
+    font-size: 25px;
+}
+
+.feature-2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.box1{
+    background-color: greenyellow;
+    height: 300px;
+    width: 20%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+
+} 
+
+.box1 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box1 span button{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+}
+
+.box1 hr{
+    width: 100%;
+margin-bottom: 20px;
+}
+
+.box1 h1{
+    font-size: 18px;
+}
+.box1 p{
+    font-size: 14px;
+}
+  
+
+@media (max-width:768px) {
+    .nav-section{
+        height: auto;
+        width: 100%;
+       
+    }
+     .left p{
+       width: 50%;
+     }
+    .nav-section .right span{
+         display: none;
+    }
+
+    .feature-2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+        
+    }
+
+   .box1{
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+ }   
+    
+
